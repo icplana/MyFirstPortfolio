@@ -2,7 +2,7 @@
 
 export const Footer = () => {
   return (
-    <footer className="w-full bg-gradient-to-bl from-gray-700 to-black ">
+    <footer className="w-full bg-gradient-to-bl from-gray-700 to-black relative bottom-0">
       <hr />
         <div className=" flex justify-center py-5 gap-5 content-center">            
             <a href="https://github.com/icplana" target="_blank">
