@@ -11,7 +11,7 @@ export const Header = () => {
           </li>
           
           <li>
-            <Link to="/Herramientas">Herramientas</Link>
+            <Link to="/Herramientas">Formación</Link>
           </li>
 
           <li>

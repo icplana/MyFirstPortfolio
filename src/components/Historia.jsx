@@ -41,13 +41,13 @@ export const Historia = () => {
                 <img src="./assets/images/REACT.svg" className="inline w-20 mr-4 rounded" alt="ReactJS" />
                 <img src="./assets/images/node.png" className="inline w-20 mr-4 rounded" alt="NodeJS" />
                 <img src="./assets/images/GIT.png" className="inline w-20 mr-4 rounded" alt="GIT" />
-                <img src="./assets/images/Github.svg" className="inline w-20 mr-4 rounded" alt="GitHub" />
+                <img src="./assets/images/footerGithub2.png" className="inline w-20 mr-4 rounded" alt="GitHub" />
                 
             </div>
             <p className='text-5xl my-10'>. <br /> . <br /> .</p>
             <p className="mt-5 font-thin text-4xl mb-5">Y todo esto ?</p>
             <img src="./assets/images/whiteArrow.webp" width="200rem" className='mx-auto mt-16 rotate-90' alt="" /> 
-            <p className="mt-20 text-6xl font-bold animate-bounce mb-96"><Link to="/Proyectos">Proyectos</Link></p>
+            <p className="mt-20 text-6xl font-bold animate-bounce mb-32"><Link to="/Proyectos">Proyectos</Link></p>
         </div>
     </div>
   )

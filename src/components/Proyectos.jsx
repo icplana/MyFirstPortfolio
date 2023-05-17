@@ -12,15 +12,15 @@ export const Proyectos = () => {
       <div className="flex flex-wrap justify-evenly mt-12 gap-11 mx-5">
         
           <Proyecto 
-            imgSrc ="/assets/images/tictactoe.png" 
+            imgSrc ="./assets/images/tictactoe.png" 
             name="Tic Tac Toe"
-            description="Pequeño proyecto 3 en raya. 2 Modos: PvP y PvC"
+            description="Pequeño proyecto 3 en raya. 2 Modos de juego: PvP y PvC"
             linkRepo="https://github.com/icplana/tic-tac-toe-React"     
             linkTry="https://icplana.github.io/tic-tac-toe-React/"   
           />    
         
           <Proyecto 
-            imgSrc ="/assets/images/ContribucionesApp.png" 
+            imgSrc ="./assets/images/ContribucionesApp.png" 
             name="ContribucionesApp"
             description="Pequeño proyecto para aportar comentarios en una web"
             linkRepo="https://github.com/icplana/ContributionsForm"     
@@ -28,7 +28,7 @@ export const Proyectos = () => {
           />    
           
           <Proyecto 
-            imgSrc ="/assets/images/TodoApp.png" 
+            imgSrc ="./assets/images/TodoApp.png" 
             name="TodoApp"
             description="Pequeño proyecto para hacer un TodoList"
             linkRepo="https://github.com/icplana/TodoAppReact"     
