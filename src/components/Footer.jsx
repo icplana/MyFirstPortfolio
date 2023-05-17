@@ -1,8 +1,8 @@
 
 
 export const Footer = () => {
-  return (
-    <footer className="w-full bg-gradient-to-bl from-gray-700 to-black relative bottom-0">
+  return (    
+    <footer className="w-full bg-gradient-to-bl from-gray-700 to-black mt-auto">
       <hr />
         <div className=" flex justify-center py-5 gap-5 content-center">            
             <a href="https://github.com/icplana" target="_blank">
@@ -21,6 +21,6 @@ export const Footer = () => {
               <img src="./assets/images/FooterMail.png" width="55" alt="" />     
             </a>
         </div>  
-    </footer>
+    </footer>    
   )
 }
