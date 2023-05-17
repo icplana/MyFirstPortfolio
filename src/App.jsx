@@ -16,6 +16,7 @@ function App() {
           <Header />
           <Routes>
             <Route path="/" element={ <HomeLanding /> }/>
+            <Route path="/*" element={ <HomeLanding /> }/>
             <Route path="historia" element={ <Historia />}/>
             <Route path="herramientas" element={ <Herramientas />}/>
             <Route path="proyectos" element={ <Proyectos />}/>

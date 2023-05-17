@@ -34,7 +34,7 @@ export const HomeLanding = () => {
             <div className="flex flex-wrap justify-evenly mt-12 gap-11 mx-5">
               
                 <Proyecto 
-                  imgSrc ="./assets/images/tictactoe.png" 
+                  imgSrc ="../assets/images/tictactoe.png" 
                   name="Tic Tac Toe"
                   description="Pequeño proyecto 3 en raya. 2 Modos de juego: PvP y PvC"
                   linkRepo="https://github.com/icplana/tic-tac-toe-React"     
