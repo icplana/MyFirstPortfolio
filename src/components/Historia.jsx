@@ -47,7 +47,7 @@ export const Historia = () => {
             <p className='text-5xl my-10'>. <br /> . <br /> .</p>
             <p className="mt-5 font-thin text-4xl mb-5">Y todo esto ?</p>
             <img src="./assets/images/whiteArrow.webp" width="200rem" className='mx-auto mt-16 rotate-90' alt="" /> 
-            <p className="mt-20 text-6xl font-bold animate-bounce mb-32"><Link to="/Proyectos">Proyectos</Link></p>
+            <p className="mt-20 text-6xl font-bold animate-bounce mb-32"><Link to="MyFirstPortfolio/Proyectos">Proyectos</Link></p>
         </div>
     </div>
   )

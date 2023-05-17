@@ -15,11 +15,11 @@ function App() {
       <div className='w-full bg-gradient-to-br from-black to-gray-700 flex flex-col items-center'>
           <Header />
           <Routes>
-            <Route path="/" element={ <HomeLanding /> }/>
-            <Route path="/*" element={ <HomeLanding /> }/>
-            <Route path="historia" element={ <Historia />}/>
-            <Route path="herramientas" element={ <Herramientas />}/>
-            <Route path="proyectos" element={ <Proyectos />}/>
+            <Route path="MyFirstPortfolio//" element={ <HomeLanding /> }/>
+            <Route path="MyFirstPortfolio//*" element={ <HomeLanding /> }/>
+            <Route path="MyFirstPortfolio/historia" element={ <Historia />}/>
+            <Route path="MyFirstPortfolio/herramientas" element={ <Herramientas />}/>
+            <Route path="MyFirstPortfolio/proyectos" element={ <Proyectos />}/>
           </Routes>   
           <Footer /> 
       </div>

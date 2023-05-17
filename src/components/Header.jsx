@@ -7,19 +7,19 @@ export const Header = () => {
       <nav >
         <ul className="flex flex-row justify-center gap-6 text-white mt-5 ">
           <li>
-            <Link to="/">Inicio</Link>
+            <Link to="MyFirstPortfolio/">Inicio</Link>
           </li>
           
           <li>
-            <Link to="/Herramientas">Formación</Link>
+            <Link to="MyFirstPortfolio/Herramientas">Formación</Link>
           </li>
 
           <li>
-            <Link to="/Proyectos">Proyectos</Link>
+            <Link to="MyFirstPortfolio/Proyectos">Proyectos</Link>
           </li>
 
           <li>
-            <Link to="/Historia">Historia</Link>
+            <Link to="MyFirstPortfolio/Historia">Historia</Link>
           </li>
 
 
