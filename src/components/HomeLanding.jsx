@@ -1,68 +1,77 @@
-import { Proyecto } from "./Proyecto"
+import { Proyecto } from "./Proyecto";
 
+const proyectos = [
+  {
+    imgSrc: "./assets/images/tictactoe.png",
+    name: "Tic Tac Toe",
+    description: "Small project tic tac toe. 2 games modes: PvP and PvC",
+    linkRepo: "https://github.com/icplana/tic-tac-toe-React",
+    linkTry: "https://icplana.github.io/ContributionsForm/",
+  },
+  {
+    imgSrc: "./assets/images/ContribucionesApp.png",
+    name: "ContribucionesApp",
+    description: "Small project to make public contributions",
+    linkRepo: "https://github.com/icplana/ContributionsForm",
+    linkTry: "https://icplana.github.io/ContributionsForm/",
+  },
+  {
+    imgSrc: "./assets/images/TodoApp.png",
+    name: "TodoApp",
+    description: "Small project to create a todo list",
+    linkRepo: "https://github.com/icplana/TodoAppReact",
+    linkTry: "https://icplana.github.io/TodoAppReact/",
+  },
+];
 
 export const HomeLanding = () => {
   return (
     <>
-        <div className='text-white max-w-screen-lg px-auto text-center'>               
-            <h2 
-              className='pt-16 text-5xl mb-10  bg-gradient-to-br from-yellow-400 to-neutral-300 bg-clip-text text-transparent py-2'
-            > 
-              Ignasi Casanovas Plana
-            </h2>
-       
-            <div className="flex flex-wrap my-6 mx-5 justify-center mb-12">
-              <div className="w-4/12 min-w-fit flex justify-center"> 
-                <img 
-                  className="rounded-full aspect-square max-w-xs" src="./assets/images/profile.jpeg" alt="" />
-              </div>
+      <div className="text-white max-w-screen-lg px-auto text-center">
+        <h2 className="pt-16 text-5xl mb-10  bg-gradient-to-br from-yellow-400 to-neutral-300 bg-clip-text text-transparent py-2">
+          Ignasi Casanovas Plana
+        </h2>
 
-              <div className="w-8/12 text-white p-8">
-                ¡Hola! Soy Ignasi, un desarrollador Frontend con una gran pasión por la creación de aplicaciones web atractivas e intuitivas. Mi objetivo es convertirme en un desarrollador Full-Stack y estoy trabajando para ampliar mis habilidades y conocimientos. Como estudiante autodidacta, he explorado una variedad de tecnologías y frameworks, incluyendo JavaScript, React, Node.js, SQL y Git.
-                <br />
-                <br />
-                Me encanta trabajar en equipo y estoy emocionado por aprender de otros desarrolladores y contribuir al éxito de proyectos en colaboración. Actualmente estoy buscando oportunidades laborales para seguir creciendo y aplicando mis habilidades en un entorno profesional
-              </div>
+        <div className="flex flex-wrap my-6 mx-5 justify-center mb-12">
+          <div className="w-4/12 min-w-fit flex justify-center">
+            <img
+              className="rounded-full aspect-square max-w-xs"
+              src="./assets/images/profile.jpeg"
+              alt=""
+            />
+          </div>
 
-            </div>
-            <hr />
-            <h1 
-            className="justify-self-start w-full text-5xl font-thin my-5"
-            >
-              Algunos de mis proyectos . . .
-              </h1>
-            <div className="flex flex-wrap justify-evenly mt-12 gap-11 mx-5">
-              
-                <Proyecto 
-                  imgSrc ="./assets/images/tictactoe.png" 
-                  name="Tic Tac Toe"
-                  description="Pequeño proyecto 3 en raya. 2 Modos de juego: PvP y PvC"
-                  linkRepo="https://github.com/icplana/tic-tac-toe-React"     
-                  linkTry="https://icplana.github.io/tic-tac-toe-React/"   
-                />    
-              
-                <Proyecto 
-                  imgSrc ="./assets/images/ContribucionesApp.png" 
-                  name="ContribucionesApp"
-                  description="Pequeño proyecto para aportar comentarios en una web"
-                  linkRepo="https://github.com/icplana/ContributionsForm"     
-                  linkTry="https://icplana.github.io/ContributionsForm/"   
-                />    
-               
-                <Proyecto 
-                  imgSrc ="./assets/images/TodoApp.png" 
-                  name="TodoApp"
-                  description="Pequeño proyecto para hacer un TodoList"
-                  linkRepo="https://github.com/icplana/TodoAppReact"     
-                  linkTry="https://icplana.github.io/TodoAppReact/"   
-                />    
-                 
-              
-
-            </div>
-
+          <div className="w-8/12 text-white p-8">
+            Hello! I'm Ignasi Casanovas Plana, an aspiring frontend developer
+            with a strong passion for creating web applications. My immediate
+            goal is to secure a junior front-end position, where I can
+            contribute my skills in HTML, CSS, JavaScript, React, Vite, Node.js,
+            and Jest. 
+            <br />
+            <br />
+            In the long term, I aspire to become a full-stack
+            developer, expanding my knowledge beyond the frontend technologies.
+            I am committed to continuous learning, keeping up with the latest
+            industry trends, and acquiring additional skills to contribute
+            eectively to all aspects of web development.
+          </div>
         </div>
-    
+        <hr />
+        <h1 className="justify-self-start w-full text-5xl font-thin my-5">
+          Some of my projects . . .
+        </h1>
+        <div className="flex flex-wrap justify-evenly mt-12 gap-11 mx-5">
+          {proyectos.map((proyecto) => (
+            <Proyecto
+              imgSrc={proyecto.imgSrc}
+              name={proyecto.name}
+              description={proyecto.description}
+              linkRepo={proyecto.linkRepo}
+              linkTry={proyecto.linkTry}
+            />
+          ))}
+        </div>
+      </div>
     </>
-  )
-}
+  );
+};

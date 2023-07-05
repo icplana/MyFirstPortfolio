@@ -7,20 +7,20 @@ export const Header = () => {
       <nav >
         <ul className="flex flex-row justify-center gap-6 text-white mt-5 ">
           <li>
-            <Link to="MyFirstPortfolio/">Inicio</Link>
+            <Link to="/">Home</Link>
           </li>
           
           <li>
-            <Link to="MyFirstPortfolio/Herramientas">Formación</Link>
+            <Link to="Herramientas">Skills</Link>
           </li>
 
           <li>
-            <Link to="MyFirstPortfolio/Proyectos">Proyectos</Link>
+            <Link to="/Proyectos">Projects</Link>
           </li>
 
-          <li>
-            <Link to="MyFirstPortfolio/Historia">Historia</Link>
-          </li>
+          {/* <li>
+            <Link to="/Historia">Historia</Link>
+          </li> */}
 
 
         </ul>
