@@ -29,7 +29,7 @@ export const Proyectos = () => {
       <h1 
         className="bg-gradient-to-br from-yellow-400 to-neutral-300 bg-clip-text text-transparent text-5xl mt-8"
         >
-            PROYECTOS
+            PROJECTS
       </h1>
       <div className="flex flex-wrap justify-evenly mt-12 gap-11 mx-5">
         

@@ -8,7 +8,7 @@ export const Herramientas = () => {
         <h1 
             className="bg-gradient-to-br text-center from-yellow-400 to-neutral-300 bg-clip-text text-transparent text-5xl mt-8 mb-8"
             >
-                Formación
+                Courses
           </h1>
            
            <Herramienta
