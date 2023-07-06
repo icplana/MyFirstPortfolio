@@ -1,6 +1,6 @@
 
 
-export const Proyecto = ({ imgSrc, name, description, linkTry, linkRepo }) => {
+export const Proyecto = ({ imgSrc, name, description, linkTry, linkRepo, tecs }) => {
   return (
     <div className="flex bg-white text-white shrink-0 grow max-w-md w-96 flex-col rounded-lg overflow-hidden mb-6 justify-center">
         
@@ -11,6 +11,11 @@ export const Proyecto = ({ imgSrc, name, description, linkTry, linkRepo }) => {
                 className="font-thin h-12 self-start"
             >
                 { description }
+            </p>
+
+            <p className="self-start">
+                <b>Technologies:</b>
+                { ' ' + tecs }
             </p>
             <div className="flex justify-evenly py-8 ">
                 <a className="px-4 my-2 border border-white bordir-solid rounded hover:bg-white hover:font-semibold hover:text-black" href={ linkTry } target="_blank">Try it!</a>
