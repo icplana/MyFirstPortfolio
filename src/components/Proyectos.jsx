@@ -1,6 +1,6 @@
 import { Proyecto } from "./Proyecto"
 
-const proyectos = [
+export const proyectos = [
   {
     imgSrc:"./assets/images/NotesApp.jpg",
     name:"NotesApp",
@@ -10,12 +10,28 @@ const proyectos = [
     tecs: "React, MUI, Redux, Vite, Vercel, Firebase, Cloudinary and Jest"
   },
   {
+    imgSrc:"./assets/images/FavoriteRecipes.jpg",
+    name:"FavoriteRecipesApp",
+    description:"Medium project to look for recipes",
+    linkRepo:"https://github.com/icplana/favoriteRecipes",
+    linkTry:"https://icplana.github.io/favoriteRecipes/" ,
+    tecs: "React, Vite, Github Pages, LS and TailwindCSS"
+  },
+  {
+    imgSrc:"./assets/images/speedtyping.jpg",
+    name:"SpeedTypingTest",
+    description:"Small project to mak a speed typing test",
+    linkRepo:"https://github.com/icplana/speedTypingTest",
+    linkTry:"https://icplana.github.io/speedTypingTest/" ,
+    tecs: "React, Vite, Github Pages and TailwindCSS"
+  },
+  {
     imgSrc:"./assets/images/tictactoe.png",
     name: "Tic Tac Toe",
     description: "Small project tic tac toe. 2 games modes: PvP and PvC",
     linkRepo: "https://github.com/icplana/tic-tac-toe-React",
     linkTry:"https://icplana.github.io/ContributionsForm/",
-    tecs: "React, TailwindCSS, GithubPages and Vite"
+    tecs: "React, TailwindCSS, Github Pages and Vite"
   },
   {
     imgSrc:"./assets/images/ContribucionesApp.png" ,
@@ -23,7 +39,7 @@ const proyectos = [
     description:"Small project to make public contributions",
     linkRepo:"https://github.com/icplana/ContributionsForm",    
     linkTry:"https://icplana.github.io/ContributionsForm/" ,
-    tecs: "React, Bootstrap, GithubPages and Vite"
+    tecs: "React, Bootstrap, Github Pages and Vite"
   },
   {
     imgSrc:"./assets/images/TodoApp.png",
@@ -31,7 +47,7 @@ const proyectos = [
     description:"Small project to create a todo list",
     linkRepo:"https://github.com/icplana/TodoAppReact",
     linkTry:"https://icplana.github.io/TodoAppReact/" ,
-    tecs: "React, TailwindCSS, GithubPages and Vite"
+    tecs: "React, TailwindCSS, Github Pages and Vite"
   }
   
 ]

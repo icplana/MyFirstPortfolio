@@ -1,39 +1,7 @@
 import { Proyecto } from "./Proyecto";
+import { proyectos as fullProyectos} from './Proyectos'
 
-const proyectos = [
-  {
-    imgSrc:"./assets/images/NotesApp.jpg",
-    name:"NotesApp",
-    description:"Medium/big project to create a NotesApp",
-    linkRepo:"https://github.com/icplana/NotesAppReact",
-    linkTry:"https://notes-app-react-gfprhhsbf-icplana.vercel.app/" ,
-    tecs: "React, MUI, Redux, Vite, Vercel, Firebase, Cloudinary and Jest"
-  },
-  {
-    imgSrc:"./assets/images/tictactoe.png",
-    name: "Tic Tac Toe",
-    description: "Small project tic tac toe. 2 games modes: PvP and PvC",
-    linkRepo: "https://github.com/icplana/tic-tac-toe-React",
-    linkTry:"https://icplana.github.io/ContributionsForm/",
-    tecs: "React, TailwindCSS, GithubPages and Vite"
-  },
-  {
-    imgSrc:"./assets/images/ContribucionesApp.png" ,
-    name:"ContribucionesApp",
-    description:"Small project to make public contributions",
-    linkRepo:"https://github.com/icplana/ContributionsForm",    
-    linkTry:"https://icplana.github.io/ContributionsForm/" ,
-    tecs: "React, Bootstrap, GithubPages and Vite"
-  },
-  {
-    imgSrc:"./assets/images/TodoApp.png",
-    name:"TodoApp",
-    description:"Small project to create a todo list",
-    linkRepo:"https://github.com/icplana/TodoAppReact",
-    linkTry:"https://icplana.github.io/TodoAppReact/" ,
-    tecs: "React, TailwindCSS, GithubPages and Vite"
-  }
-];
+const proyectos = [fullProyectos[0], fullProyectos[1], fullProyectos[2]]
 
 export const HomeLanding = () => {
   return (
