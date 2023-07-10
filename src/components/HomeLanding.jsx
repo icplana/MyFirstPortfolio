@@ -42,6 +42,7 @@ export const HomeLanding = () => {
         <div className="flex flex-wrap justify-evenly mt-12 gap-11 mx-5">
           {proyectos.map((proyecto) => (
             <Proyecto
+              key={ proyecto.linkRepo }
               imgSrc={proyecto.imgSrc}
               name={proyecto.name}
               description={proyecto.description}
