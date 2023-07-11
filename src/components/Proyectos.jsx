@@ -14,8 +14,8 @@ export const proyectos = [
     name:"FavoriteRecipesApp",
     description:"Medium project to look for recipes",
     linkRepo:"https://github.com/icplana/favoriteRecipes",
-    linkTry:"https://icplana.github.io/favoriteRecipes/" ,
-    tecs: "React, Vite, Github Pages, LS and TailwindCSS"
+    linkTry:"https://favorite-recipes-eight.vercel.app/" ,
+    tecs: "React, Vite, Vercel, LS and TailwindCSS"
   },
   {
     imgSrc:"./assets/images/speedtyping.jpg",
