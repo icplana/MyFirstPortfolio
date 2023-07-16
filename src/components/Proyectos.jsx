@@ -1,6 +1,15 @@
 import { Proyecto } from "./Proyecto"
 
 export const proyectos = [
+  
+  {
+    imgSrc:"./assets/images/MotoGpApp.jpg",
+    name:"MotoGPRidersApp",
+    description:"Medium size project to show information about MotoGP riders",
+    linkRepo:"https://github.com/icplana/MotoGPRiders",
+    linkTry:"https://moto-gp-riders.vercel.app/" ,
+    tecs: "React, Bootstrap, Vercel, Firebase and Vite"
+  },
   {
     imgSrc:"./assets/images/NotesApp.jpg",
     name:"NotesApp",
