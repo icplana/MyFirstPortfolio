@@ -27,6 +27,7 @@ export const Herramientas = () => {
           {
             herramientas.map( herramienta => (
               <Herramienta
+                key={ herramienta.name }
                 imgSrc = { herramienta.imgSrc }
                 name = { herramienta.name }
                 fuentes = { herramienta.fuentes }
