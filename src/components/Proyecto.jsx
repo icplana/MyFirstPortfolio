@@ -1,6 +1,11 @@
+import { useContext } from "react"
+import { LanguageContext } from "../context/LanguageContext"
 
 
 export const Proyecto = ({ imgSrc, name, description, linkTry, linkRepo, tecs }) => {
+
+    const { language } = useContext( LanguageContext )
+
   return (
     <div className="flex bg-white text-white shrink-0 grow max-w-md w-96 flex-col rounded-lg overflow-hidden mb-6 justify-center">
         

@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { LanguageContext } from '../context/LanguageContext'
 
 export const Herramienta = ({ imgSrc, name, fuentes, certificaciones }) => {
+
+    const { language } = useContext( LanguageContext )
+
   return (
     <div className="flex justify-start w-screen max-w-screen-lg border border-white rounded px-2 py-4 mb-5">
         <img src={ imgSrc } className="inline-block  w-20 mr-4 rounded" alt="" />

@@ -1,9 +1,13 @@
+import { useContext } from "react";
 import { Proyecto } from "../components/Proyecto";
-import { proyectos as fullProyectos} from './Proyectos'
+import { proyectos as fullProyectos} from '../data/proyectos'
+import { LanguageContext } from "../context/LanguageContext";
 
 const proyectos = [fullProyectos[0], fullProyectos[1], fullProyectos[2]]
 
 export const HomeLanding = () => {
+
+  const { language } = useContext( LanguageContext )
   return (
     <>
       <div className="text-white max-w-screen-lg px-auto text-center">
