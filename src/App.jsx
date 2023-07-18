@@ -5,6 +5,7 @@ import { HomeLanding } from './pages/HomeLanding'
 import { Historia } from './pages/Historia'
 import { Proyectos } from './pages/Proyectos'
 import { Herramientas } from './pages/Herramientas'
+import { Contact } from './pages/Contact'
 
 export function App() {
 
@@ -17,6 +18,7 @@ export function App() {
             <Route path="/historia" element={ <Historia />}/>
             <Route path="/herramientas" element={ <Herramientas />}/>
             <Route path="/proyectos" element={ <Proyectos />}/>
+            <Route path="/contact" element={ <Contact/>}/>
           </Routes>   
           <Footer /> 
       </div>
