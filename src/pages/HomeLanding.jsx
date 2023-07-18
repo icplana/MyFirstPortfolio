@@ -3,7 +3,7 @@ import { Proyecto } from "../components/Proyecto";
 import { proyectos as fullProyectos} from '../data/proyectos'
 import { LanguageContext } from "../context/LanguageContext";
 
-const proyectos = [fullProyectos[0], fullProyectos[1], fullProyectos[2]]
+const proyectos = fullProyectos.slice( 0, 3 )
 
 export const HomeLanding = () => {
 
