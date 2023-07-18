@@ -15,7 +15,7 @@ export const Header = () => {
   return (
     <header className="w-full mt-3">
       <nav className=" max-w-3xl mx-auto">
-        <div onMouseLeave={ deployDropdown } className="border border-zinc-50 w-fit py-1 px-2 mt-3">
+        <div onMouseLeave={ deployDropdown } className=" rounded-lg border-zinc-50 w-fit py-1 px-2 mt-3">
           <span onMouseEnter={ deployDropdown } className="text-white font-bold" onClick={ deployDropdown }>{ language }</span>
           <ul ref={ languageDropdown }  className="hidden">
             <li className="text-white hover:font-bold pointer-events-auto"><button onClick={ setCA }>CA</button></li>

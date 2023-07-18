@@ -20,7 +20,7 @@ export const Contact = () => {
         let formCheck = true
 
         if ( name.length < 1 ){
-            //set alert name
+           
             nameAlert.current.classList.remove( 'hidden' )
             setTimeout(() => {
                 nameAlert.current.classList.add( 'hidden' )
@@ -28,7 +28,7 @@ export const Contact = () => {
             formCheck = false
         }
         if ( email.length < 5 || !email.includes('@') ){
-            //set alert email
+            
             emailAlert.current.classList.remove( 'hidden' )
             setTimeout(() => {
                 emailAlert.current.classList.add( 'hidden' )
@@ -36,7 +36,7 @@ export const Contact = () => {
             formCheck = false
         }
         if ( message.length < 10 || message.length > 2500 ){
-            //set alert message
+            
             messageAlert.current.classList.remove( 'hidden' )
             setTimeout(() => {
                 messageAlert.current.classList.add( 'hidden' )
@@ -180,10 +180,10 @@ export const Contact = () => {
                     value={ message }
                     placeholder={
                         ( language === 'CA') 
-                            ? 'Escriu aquí...:'
+                            ? 'Escriu aquí...'
                             : ( language === 'ES' )
-                                ? 'Escribir aquí...:'
-                                : 'Type here...:'  
+                                ? 'Escribir aquí...'
+                                : 'Type here...'  
                     }
                 ></textarea>
                 <span className='self-end'>{ `${ message.length }/2500` }</span>
