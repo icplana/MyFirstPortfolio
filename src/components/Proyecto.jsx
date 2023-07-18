@@ -2,7 +2,7 @@ import { useContext } from "react"
 import { LanguageContext } from "../context/LanguageContext"
 
 
-export const Proyecto = ({ imgSrc, name, description, linkTry, linkRepo, tecs }) => {
+export const Proyecto = ({ imgSrc, name, caDescription, esDescription, enDescription, linkTry, linkRepo, tecs }) => {
 
     const { language } = useContext( LanguageContext )
 
@@ -15,16 +15,40 @@ export const Proyecto = ({ imgSrc, name, description, linkTry, linkRepo, tecs })
             <p 
                 className="font-thin h-12 self-start"
             >
-                { description }
+                { ( language === 'CA') 
+                    ? caDescription
+                    : ( language === 'ES' )
+                      ? esDescription
+                      : enDescription  }
             </p>
 
             <p className="self-start">
-                <b>Technologies:</b>
+                <b>{
+                    ( language === 'CA') 
+                    ? 'Tecnologies:'
+                    : ( language === 'ES' )
+                      ? 'Tecnologías:'
+                      : 'Technologies:'   
+                    }</b>
                 { ' ' + tecs }
             </p>
             <div className="flex justify-evenly py-8 ">
-                <a className="px-4 my-2 border border-white bordir-solid rounded hover:bg-white hover:font-semibold hover:text-black" href={ linkTry } target="_blank">Try it!</a>
-                <a className="px-4 my-2 border border-white bordir-solid rounded hover:bg-white hover:font-semibold hover:text-black" href={ linkRepo } target="_blank">Check the code</a>
+                <a className="px-4 my-2 border border-white bordir-solid rounded hover:bg-white hover:font-semibold hover:text-black" href={ linkTry } target="_blank">
+                    {
+                        ( language === 'CA') 
+                        ? "Prova'l!"
+                        : ( language === 'ES' )
+                          ? 'Pruébalo!'
+                          : 'Try it!'   
+                    }
+                </a>
+                <a className="px-4 my-2 border border-white bordir-solid rounded hover:bg-white hover:font-semibold hover:text-black" href={ linkRepo } target="_blank">{
+                    ( language === 'CA') 
+                    ? 'Mira el codi'
+                    : ( language === 'ES' )
+                      ? 'Mira el código'
+                      : 'Check the code'   
+                }</a>
             </div>
         </div>
      
