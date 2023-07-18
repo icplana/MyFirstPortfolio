@@ -1,4 +1,4 @@
-import { Proyecto } from "./Proyecto";
+import { Proyecto } from "../components/Proyecto";
 import { proyectos as fullProyectos} from './Proyectos'
 
 const proyectos = [fullProyectos[0], fullProyectos[1], fullProyectos[2]]

@@ -1,4 +1,4 @@
-import { Proyecto } from "./Proyecto"
+import { Proyecto } from "../components/Proyecto"
 
 export const proyectos = [
   

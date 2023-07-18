@@ -1,4 +1,4 @@
-import { Herramienta } from "./Herramienta"
+import { Herramienta } from "../components/Herramienta"
 
 
 export const Herramientas = () => {

@@ -1,14 +1,12 @@
-import { useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import { Header } from './components/Header'
-import { HomeLanding } from './components/HomeLanding'
-import { Historia } from './components/Historia'
-import { Herramientas } from './components/Herramientas'
-import { Proyectos } from './components/Proyectos'
 import { Footer } from './components/Footer'
+import { HomeLanding } from './pages/HomeLanding'
+import { Historia } from './pages/Historia'
+import { Proyectos } from './pages/Proyectos'
+import { Herramientas } from './pages/Herramientas'
 
-function App() {
-  const [count, setCount] = useState(0)
+export function App() {
 
   return (
     <>    
@@ -27,4 +25,3 @@ function App() {
   )
 }
 
-export default App
