@@ -16,7 +16,7 @@ export const HomeLanding = () => {
         </h2>
 
         <div className="flex flex-wrap my-6 mx-5 justify-center mb-12">
-          <div className="w-4/12 min-w-fit flex justify-center aspect-square">
+          <div className="sm:w-4/12 min-w-fit flex justify-center aspect-square">
             <img
               className="rounded-full aspect-square max-w-xs max-h-80"
               src="./assets/images/profile.jpeg"
