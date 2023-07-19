@@ -6,11 +6,11 @@ export const Herramienta = ({ imgSrc, name, fuentes, certificaciones }) => {
     const { language } = useContext( LanguageContext )
 
   return (
-    <div className="flex justify-start w-screen max-w-screen-lg border border-white rounded px-2 py-4 mb-5">
+    <div className="flex justify-center sm:justify-start w-screen max-w-screen-lg border border-white rounded px-2 py-4 mb-5">
         <img src={ imgSrc } className="inline-block  w-20 mr-4 rounded" alt="" />
         <div className="flex flex-col justify-center">
             <h3>{ name }</h3>
-            <p>{
+            <p className='hidden sm:visible'>{
             ( language === 'CA') 
             ? 'Fonts principals:'
             : ( language === 'ES' )
@@ -58,7 +58,7 @@ export const Herramienta = ({ imgSrc, name, fuentes, certificaciones }) => {
                 })
                 }  
             </p>
-                <p>{
+                <p className='hidden sm:visible'>{
                     certificaciones.length === 0
                     ? ' '
                     : ( language === 'CA') 
