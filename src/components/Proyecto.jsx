@@ -9,7 +9,7 @@ export const Proyecto = ({ imgSrc, name, caDescription, esDescription, enDescrip
   return (
     <div className="flex bg-white text-white grow max-w-md w-96 flex-col rounded-lg overflow-hidden mb-6 justify-center">
         
-        <img src={ imgSrc } className="rounded-t h-80 sobject-contain" alt="" />
+        <img src={ imgSrc } className="rounded-t h-80 object-contain" alt="" />
         <div className="flex flex-col px-2 py-2 bg-stone-900 rounded-b pl-6 mt-auto">
             <h3 className="self-start pl-1 pt-2 text-xl">{ name }</h3>
             <p 
