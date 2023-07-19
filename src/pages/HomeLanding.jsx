@@ -11,7 +11,7 @@ export const HomeLanding = () => {
   return (
     <>
       <div className="text-white max-w-screen-lg px-auto text-center">
-        <h2 className="pt-16 text-5xl mb-10  bg-gradient-to-br from-yellow-400 to-neutral-300 bg-clip-text text-transparent py-2">
+        <h2 className="pt-16 sm:text-5xl text-3xl mb-10  bg-gradient-to-br from-yellow-400 to-neutral-300 bg-clip-text text-transparent py-2">
           Ignasi Casanovas Plana
         </h2>
 
@@ -45,7 +45,7 @@ export const HomeLanding = () => {
           </div>
         </div>
         <hr />
-        <h1 className="justify-self-start w-full text-5xl font-thin my-5">
+        <h1 className="justify-self-start w-full  text-3xl sm:text-5xl font-thin my-5">
         {
                 ( language === 'CA') 
                 ? 'Alguns dels meus projectes...'
@@ -54,7 +54,7 @@ export const HomeLanding = () => {
                   : 'Some of my projects...' 
                 }
         </h1>
-        <div className="flex flex-wrap justify-evenly mt-12 gap-11 mx-5">
+        <div className="flex flex-wrap justify-evenly mt-12 gap-11 sm:mx-5">
           {proyectos.map((proyecto) => (
             <Proyecto
               key={ proyecto.linkRepo }
