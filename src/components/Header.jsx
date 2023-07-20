@@ -1,5 +1,5 @@
 import { useContext, useRef } from "react"
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import { LanguageContext } from "../context/LanguageContext"
 
 
@@ -14,7 +14,83 @@ export const Header = () => {
 
   return (
     <header className="w-full mt-3">
-      <button className="text-white sm:hidden">III</button>
+
+      //Small Screen
+      <div className="">
+        <button className="text-white sm:hidden ml-2">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30">
+          <path  d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z" fill="rgba(255,255,255,1)"></path>
+        </svg>
+      </button>
+
+      <div className="bg-slate-100 absolute">
+        <button className="block ms-auto me-1 mt-1">X</button>
+      <ul className="  ml-4 text-lg justify-center text-white mt-5 items-center">
+          <li>
+            <NavLink
+              className={ ({isActive}) => isActive ? 'font-semibold text-xl' :'' }
+              to="/">{
+            ( language === 'CA') 
+            ? 'Inici'
+            : ( language === 'ES' )
+              ? 'Inicio'
+              : 'Home'           
+            }</NavLink>
+          </li>
+          
+          <li>
+            <NavLink 
+              className={ ({isActive}) => isActive ? 'font-semibold text-xl' :'' }
+              to="Herramientas">{
+              ( language === 'CA') 
+              ? 'Habilitats'
+              : ( language === 'ES' )
+                ? 'Habilidades'
+                : 'Skills'   
+            }</NavLink>
+          </li>
+
+          <li>
+            <NavLink 
+              className={ ({isActive}) => isActive ? 'font-semibold text-xl' :'' }
+              to="/Proyectos">{
+              ( language === 'CA') 
+              ? 'Projectes'
+              : ( language === 'ES' )
+                ? 'Proyectos'
+                : 'Projects'   
+            }</NavLink>
+          </li>
+
+          <li>
+            <NavLink 
+              className={ ({isActive}) => isActive ? 'font-semibold text-xl' :'' }
+              to="/contact">{
+              ( language === 'CA') 
+              ? 'Contacte'
+              : ( language === 'ES' )
+                ? 'Contacto'
+                : 'Contact'   
+            }</NavLink>
+          </li>
+
+          
+         
+
+          {/* <li>
+            <Link to="/Historia">Historia</Link>
+          </li> */}
+
+
+        </ul>
+      </div>
+      </div>
+      
+
+
+
+
+      //Big Screen
       <nav className=" max-w-3xl mx-auto">
         <div onMouseLeave={ deployDropdown } className=" rounded-lg border-zinc-50 w-fit py-1 px-2 mt-3">
           <span onMouseEnter={ deployDropdown } className="text-white font-bold hidden sm:flex" onClick={ deployDropdown }>
@@ -31,43 +107,51 @@ export const Header = () => {
 
         <ul className=" hidden sm:flex flex-row justify-center gap-6 text-white mt-5 items-center">
           <li>
-            <Link to="/">{
+            <NavLink 
+              className={ ({isActive}) => isActive ? 'font-semibold text-xl' :'' }
+              to="/">{
             ( language === 'CA') 
             ? 'Inici'
             : ( language === 'ES' )
               ? 'Inicio'
               : 'Home'           
-            }</Link>
+            }</NavLink>
           </li>
           
           <li>
-            <Link to="Herramientas">{
+            <NavLink 
+              className={ ({isActive}) => isActive ? 'font-semibold text-xl' :'' }
+              to="Herramientas">{
               ( language === 'CA') 
               ? 'Habilitats'
               : ( language === 'ES' )
                 ? 'Habilidades'
                 : 'Skills'   
-            }</Link>
+            }</NavLink>
           </li>
 
           <li>
-            <Link to="/Proyectos">{
+            <NavLink 
+              className={ ({isActive}) => isActive ? 'font-semibold text-xl' :'' }
+              to="/Proyectos">{
               ( language === 'CA') 
               ? 'Projectes'
               : ( language === 'ES' )
                 ? 'Proyectos'
                 : 'Projects'   
-            }</Link>
+            }</NavLink>
           </li>
 
           <li>
-            <Link to="/contact">{
+            <NavLink 
+              className={ ({isActive}) => isActive ? 'font-semibold text-xl' :'' }
+              to="/contact">{
               ( language === 'CA') 
               ? 'Contacte'
               : ( language === 'ES' )
                 ? 'Contacto'
                 : 'Contact'   
-            }</Link>
+            }</NavLink>
           </li>
 
           
