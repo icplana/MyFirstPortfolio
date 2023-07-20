@@ -43,7 +43,7 @@ export const Header = () => {
         </svg>
       </button>
 
-      <div className="bg-slate-100 absolute top-0 h-screen w-screen bg-gradient-to-br from-black to-gray-700" ref={ mobileNavbar }>
+      <div className="bg-slate-100 absolute top-0 h-screen w-screen bg-gradient-to-br from-black to-gray-700 hidden" ref={ mobileNavbar }>
 
         <button className="block ms-auto pe-2 mt-2" onClick={ closeMobileNavbar }>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="45" height="45">
