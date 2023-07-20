@@ -28,7 +28,7 @@ export const Footer = () => {
 
             <a href="https://github.com/icplana/MyFirstPortfolio" target="_blank" alt='Portfolio code' className="max-[330px]:hidden">
               <svg
-                className="mx-auto max-[460px]:self-center" 
+                className="mx-auto max-[460px]:h-14" 
                 xmlns="http://www.w3.org/2000/svg" 
                 viewBox="0 0 24 24" 
                 width="40" 
