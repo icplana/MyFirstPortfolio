@@ -53,51 +53,59 @@ export const Header = () => {
 
       <ul className="  ml-4 text-2xl justify-center text-white mt-5 items-center leading-10">
           <li>
-            <NavLink
-              className={ ({isActive}) => isActive ? 'font-semibold text-3xl' :'' }
-              to="/">{
-            ( language === 'CA') 
-            ? 'Inici'
-            : ( language === 'ES' )
-              ? 'Inicio'
-              : 'Home'           
-            }</NavLink>
+            <button onClick={closeMobileNavbar}>
+              <NavLink
+                className={ ({isActive}) => isActive ? 'font-semibold text-3xl' :'' }
+                to="/">{
+              ( language === 'CA') 
+              ? 'Inici'
+              : ( language === 'ES' )
+                ? 'Inicio'
+                : 'Home'           
+              }</NavLink>
+            </button>
           </li>
           
           <li>
-            <NavLink 
-              className={ ({isActive}) => isActive ? 'font-semibold text-3xl' :'' }
-              to="Herramientas">{
-              ( language === 'CA') 
-              ? 'Habilitats'
-              : ( language === 'ES' )
-                ? 'Habilidades'
-                : 'Skills'   
-            }</NavLink>
+            <button onClick={closeMobileNavbar}>
+              <NavLink 
+                className={ ({isActive}) => isActive ? 'font-semibold text-3xl' :'' }
+                to="Herramientas">{
+                ( language === 'CA') 
+                ? 'Habilitats'
+                : ( language === 'ES' )
+                  ? 'Habilidades'
+                  : 'Skills'   
+              }</NavLink>
+            </button>
           </li>
 
           <li>
-            <NavLink 
-              className={ ({isActive}) => isActive ? 'font-semibold text-3xl' :'' }
-              to="/Proyectos">{
-              ( language === 'CA') 
-              ? 'Projectes'
-              : ( language === 'ES' )
-                ? 'Proyectos'
-                : 'Projects'   
-            }</NavLink>
+            <button onClick={closeMobileNavbar}>
+              <NavLink 
+                className={ ({isActive}) => isActive ? 'font-semibold text-3xl' :'' }
+                to="/Proyectos">{
+                ( language === 'CA') 
+                ? 'Projectes'
+                : ( language === 'ES' )
+                  ? 'Proyectos'
+                  : 'Projects'   
+              }</NavLink>
+            </button>
           </li>
 
           <li>
-            <NavLink 
-              className={ ({isActive}) => isActive ? 'font-semibold text-3xl' :'' }
-              to="/contact">{
-              ( language === 'CA') 
-              ? 'Contacte'
-              : ( language === 'ES' )
-                ? 'Contacto'
-                : 'Contact'   
-            }</NavLink>
+            <button onClick={closeMobileNavbar}>
+              <NavLink 
+                className={ ({isActive}) => isActive ? 'font-semibold text-3xl' :'' }
+                to="/contact">{
+                ( language === 'CA') 
+                ? 'Contacte'
+                : ( language === 'ES' )
+                  ? 'Contacto'
+                  : 'Contact'   
+              }</NavLink>
+            </button>
           </li>
 
           
