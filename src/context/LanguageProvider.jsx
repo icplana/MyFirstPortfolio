@@ -3,7 +3,7 @@ import { LanguageContext } from './LanguageContext'
 
 export const LanguageProvider = ({ children }) => {
 
-    const [language, setLanguage] = useState('CA')
+    const [language, setLanguage] = useState('EN')
 
     const setCA = () => setLanguage('CA')
     
