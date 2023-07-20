@@ -10,7 +10,7 @@ export const Herramienta = ({ imgSrc, name, fuentes, certificaciones }) => {
         <img src={ imgSrc } className="inline-block  w-20 mr-4 rounded" alt="" />
         <div className="flex flex-col justify-center">
             <h3>{ name }</h3>
-            <p className='hidden sm:visible'>{
+            <p className='hidden sm:block'>{
             ( language === 'CA') 
             ? 'Fonts principals:'
             : ( language === 'ES' )
@@ -58,7 +58,7 @@ export const Herramienta = ({ imgSrc, name, fuentes, certificaciones }) => {
                 })
                 }  
             </p>
-                <p className='hidden sm:visible'>{
+                <p className='hidden sm:block'>{
                     certificaciones.length === 0
                     ? ' '
                     : ( language === 'CA') 

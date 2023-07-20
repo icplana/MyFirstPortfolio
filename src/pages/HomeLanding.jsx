@@ -24,7 +24,7 @@ export const HomeLanding = () => {
             />
           </div>
 
-          <div className="w-8/12 text-white p-8">
+          <div className="sm:w-8/12 text-white p-8">
             {
                 ( language === 'CA') 
                 ? "Hola! Sóc l'Ignasi Casanovas Plana, un aspirant a desenvolupador frontend amb una gran passió per crear aplicacions web. El meu objectiu és assegurar-me una posició de programador front-end junior, on pugui aportar les meves habilitats en HTML, CSS, JavaScript, React, Vite, Node.js, i Jest entre d'altres."
