@@ -115,8 +115,17 @@ export const herramientas = [
           name:'Training Github', 
           link:"https://training.github.com/"
         },
+        {
+          name: 'Udemy',
+          link: 'https://www.udemy.com/course/git-github/'
+        }
       ],
-      certificaciones: []
+      certificaciones: [
+        {
+          name: 'Udemy',
+          link: 'https://www.udemy.com/certificate/UC-a9d6e474-361a-4fc6-8479-8514dac6514d/'
+        }
+      ]
     },
     {
     imgSrc:"./assets/images/footerGithub2.png",
@@ -134,8 +143,17 @@ export const herramientas = [
         name:'Training Github', 
         link:"https://training.github.com/"
       },
+      {
+        name: 'Udemy',
+        link: 'https://www.udemy.com/course/git-github/'
+      }
     ],
-    certificaciones: []
+    certificaciones: [
+      {
+        name: 'Udemy',
+        link: 'https://www.udemy.com/certificate/UC-a9d6e474-361a-4fc6-8479-8514dac6514d/'
+      }
+    ]
     }
   ]
   
