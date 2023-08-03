@@ -154,6 +154,26 @@ export const herramientas = [
         link: 'https://www.udemy.com/certificate/UC-a9d6e474-361a-4fc6-8479-8514dac6514d/'
       }
     ]
+    },
+    {
+    imgSrc:"./assets/images/typescript.png",
+    name: "TypeScript",
+    fuentes: [
+      {
+        name:'TypeScript Docs', 
+        link:"https://www.typescriptlang.org/docs/"
+      },
+      {
+        name: 'Udemy',
+        link: 'https://www.udemy.com/course/typescript-guia-completa/'
+      }
+    ],
+    certificaciones: [
+      {
+        name: 'Udemy',
+        link: 'https://www.udemy.com/certificate/UC-d3d9a5d0-2515-40f3-89f5-3b4717213bb9/'
+      }
+    ]
     }
   ]
   
