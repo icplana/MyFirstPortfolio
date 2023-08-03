@@ -193,10 +193,10 @@ export const Contact = () => {
                 >
                     {
                         ( language === 'CA') 
-                        ? 'Missatge no vàlid (mínim 10 caràcters, màxim 2500 caràcters.'
+                        ? 'Missatge no vàlid (mínim 10 caràcters, màxim 2500 caràcters).'
                         : ( language === 'ES' )
-                            ? 'Correo inválido'
-                            : 'Invalid email' 
+                            ? 'Mensaje no válido (mínimo 10 caracteres, máximo 2500).'
+                            : 'Invalid message (min 10 characters , max 2500 characters).' 
                     }
                 </p>
 
@@ -204,7 +204,7 @@ export const Contact = () => {
 
             <input 
                 type='submit'
-                className='bg-black rounded-lg w-fit px-4 py-2 my-4 font-bold'
+                className='bg-black rounded-lg w-fit px-4 py-2 my-4 font-bold hover:cursor-pointer'
                 value={
                     ( language === 'CA') 
                     ? 'Enviar'

@@ -52,6 +52,17 @@ export const herramientas = [
       certificaciones: []
     },
     {
+      imgSrc: "./assets/images/bootstrap.png",
+      name: "Bootstrap",
+      fuentes: [
+        {
+          name:'Bootstrap docs', 
+          link:"https://getbootstrap.com/"
+        },
+      ],
+      certificaciones: []
+    },
+    {
       imgSrc:"./assets/images/JS.png",
       name:"JavaScript",
       fuentes:[
@@ -79,6 +90,26 @@ export const herramientas = [
         }
       ]
     },
+    {
+      imgSrc:"./assets/images/typescript.png",
+      name: "TypeScript",
+      fuentes: [
+        {
+          name:'TypeScript Docs', 
+          link:"https://www.typescriptlang.org/docs/"
+        },
+        {
+          name: 'Udemy',
+          link: 'https://www.udemy.com/course/typescript-guia-completa/'
+        }
+      ],
+      certificaciones: [
+        {
+          name: 'Udemy',
+          link: 'https://www.udemy.com/certificate/UC-d3d9a5d0-2515-40f3-89f5-3b4717213bb9/'
+        }
+      ]
+      },
     {
       imgSrc:"./assets/images/REACT.svg",
       name:"React",
@@ -155,25 +186,5 @@ export const herramientas = [
       }
     ]
     },
-    {
-    imgSrc:"./assets/images/typescript.png",
-    name: "TypeScript",
-    fuentes: [
-      {
-        name:'TypeScript Docs', 
-        link:"https://www.typescriptlang.org/docs/"
-      },
-      {
-        name: 'Udemy',
-        link: 'https://www.udemy.com/course/typescript-guia-completa/'
-      }
-    ],
-    certificaciones: [
-      {
-        name: 'Udemy',
-        link: 'https://www.udemy.com/certificate/UC-d3d9a5d0-2515-40f3-89f5-3b4717213bb9/'
-      }
-    ]
-    }
   ]
   
