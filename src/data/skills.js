@@ -109,7 +109,7 @@ export const herramientas = [
           link: 'https://www.udemy.com/certificate/UC-d3d9a5d0-2515-40f3-89f5-3b4717213bb9/'
         }
       ]
-      },
+    },
     {
       imgSrc:"./assets/images/REACT.svg",
       name:"React",
@@ -126,7 +126,7 @@ export const herramientas = [
       certificaciones: [
         {
           name:'Udemy', 
-          link:"https://www.udemy.com/certificate/UC-cef5f81e-dd7d-4ef1-bee7-8a30e33d8a2c/"
+          link:"https://www.udemy.com/certificate/UC-82a1c92b-70f9-4688-8f4e-7da957fad096/"
         }
       ]
     },
