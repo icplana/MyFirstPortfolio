@@ -11,6 +11,16 @@ export const proyectos = [
       tecs: "React, Bootstrap, Vercel, Firebase & Vite"
     },
     {
+      imgSrc:"./assets/images/MarvelApp.jpg",
+      name:"Learning Marvel website",
+      caDescription:"Projecte mitjà amb informació sobre Marvel (Marvel API)",
+      esDescription:"Proyecto mediano con información sobre Marvel (Marvel API)",
+      enDescription:"Medium size project to show information about Marvel (Marvel API)",
+      linkRepo:"https://github.com/icplana/marvelWebsite",
+      linkTry:"https://learningmarvel.vercel.app/" ,
+      tecs: "React, Tailwind, Vercel, API, Firebase & Vite"
+    },
+    {
       imgSrc:"./assets/images/NotesApp.jpg",
       name:"NotesApp",
       caDescription:"Projecte mitjà-gran per crear notes personalitzades",
