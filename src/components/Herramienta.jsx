@@ -56,7 +56,7 @@ export const Herramienta = ({ imgSrc, name, fuentes, certificaciones }) => {
                             </>
                         )
                 })
-                }  
+            }  
             </p>
                 <p className='hidden sm:block'>{
                     certificaciones.length === 0

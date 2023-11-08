@@ -57,7 +57,7 @@ export const proyectos = [
       esDescription: "Proyecto pequeño de 3 en raya. Dos modos de juego: PvP y PvC",
       enDescription: "Small project tic tac toe. 2 games modes: PvP and PvC",
       linkRepo: "https://github.com/icplana/tic-tac-toe-React",
-      linkTry:"https://icplana.github.io/ContributionsForm/",
+      linkTry:"https://icplana.github.io/tic-tac-toe-React/",
       tecs: "React, TailwindCSS, Github Pages & Vite"
     },
     {
