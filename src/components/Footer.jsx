@@ -21,7 +21,7 @@ export const Footer = () => {
               <img src="./assets/images/FooterMail.png" width="55" alt="Mail" />     
             </a>
 
-            <a href="./assets/CV - Ignasi Casanovas Plana.pdf" download className="flex max-[380px]:hidden">
+            <a href="./assets/CV Ignasi Casanovas Plana.pdf" download className="flex max-[380px]:hidden">
               <img src="./assets/images/FooterCV.svg" width="55" alt="CV" />
                   <p className="text-white max-[460px]:hidden max-[460px]:h-0" >CV</p>
             </a>
